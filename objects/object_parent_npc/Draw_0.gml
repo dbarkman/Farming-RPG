@@ -23,10 +23,10 @@ if (move_x < 0) {
 	x_frame = 0;
 }
 
+draw_sprite(sprite_character_shadow, 0, x, y);
+
 draw_sprite_part(sprite_base, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 draw_sprite_part(sprite_feet, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 draw_sprite_part(sprite_legs, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
 draw_sprite_part(sprite_torso, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
-//draw_sprite_part(sprite_hair, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);
-
-draw_rectangle_color(bbox_left, bbox_top, bbox_right, bbox_bottom, c_yellow, c_yellow, c_yellow, c_yellow, true);
+draw_sprite_part(sprite_hair, 0, floor(x_frame) * frame_size, y_frame * frame_size, frame_size, frame_size, xx, yy);

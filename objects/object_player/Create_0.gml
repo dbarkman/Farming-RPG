@@ -1,6 +1,6 @@
 speed_walk = 1;
-speed_normal = 3;
-speed_run = 5;
+speed_normal = 2;
+speed_run = 3;
 
 x_frame = 1;
 y_frame = 10;

@@ -3,7 +3,7 @@ input_left = keyboard_check(ord("A"));
 input_right = keyboard_check(ord("D"));
 input_up = keyboard_check(ord("W"));
 input_down = keyboard_check(ord("S"));
-input_walk = keyboard_check(vk_control);
+input_walk = keyboard_check(vk_lcontrol);
 input_run = keyboard_check(vk_shift);
 
 //set speed based on inputs

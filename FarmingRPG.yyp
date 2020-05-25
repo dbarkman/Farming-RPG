@@ -50,7 +50,7 @@
             "Key": "074e9831-5702-42e9-b21e-50657c27d981",
             "Value": {
                 "id": "5792fa76-9ebb-485a-b8ae-559b0976ea38",
-                "resourcePath": "rooms\/room_0\/room_0.yy",
+                "resourcePath": "rooms\/room_1\/room_1.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "76e42d1c-53ee-4776-b3e6-a0b9ad82fe6c",
+            "Value": {
+                "id": "f1387c22-1d0e-4945-86b6-02f190b7953a",
+                "resourcePath": "objects\/object_parent_npc\/object_parent_npc.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7992978a-c3cd-40cf-8afa-70b7218367dd",
             "Value": {
                 "id": "c849ec88-b84e-47aa-b677-8da250fac341",
@@ -340,6 +348,14 @@
                 "id": "1496be70-5bf7-4cca-82a3-3987a0b07156",
                 "resourcePath": "sprites\/sprite_skirt_brown\/sprite_skirt_brown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "86812d36-9130-4658-91a9-62862117c9fd",
+            "Value": {
+                "id": "ef9f7c09-d87a-4efb-b1c5-b1beabf54a21",
+                "resourcePath": "rooms\/room_0\/room_0.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -431,6 +447,14 @@
             }
         },
         {
+            "Key": "a495659a-40bf-4d4f-98d9-652f5bf13ecf",
+            "Value": {
+                "id": "208bde2a-ce47-43f9-a883-cac2b975d8ea",
+                "resourcePath": "objects\/game\/game.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a834cdba-88ee-48e4-ba3d-227115dc6d3f",
             "Value": {
                 "id": "ee162af9-27ab-4a35-9bef-5ee84dcb6dcb",
@@ -459,6 +483,14 @@
             "Value": {
                 "id": "c224a957-e0a0-472d-8d2b-a111357f6ace",
                 "resourcePath": "sprites\/sprite_shirt_longsleeve_teal\/sprite_shirt_longsleeve_teal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ae66a2d7-b720-4136-9c97-813e43dee292",
+            "Value": {
+                "id": "b82a0d7a-6ba6-4d11-ad7f-11b60b27ce05",
+                "resourcePath": "sprites\/sprite_hair_bald\/sprite_hair_bald.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -539,6 +571,14 @@
             "Value": {
                 "id": "3672f888-f3f7-418d-b9b6-0b40332f7fce",
                 "resourcePath": "sprites\/sprite_shirt_longsleeve_brown\/sprite_shirt_longsleeve_brown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c52cece0-cd35-4883-bcd0-9e6dea5b80ad",
+            "Value": {
+                "id": "46bc8b4d-b320-4842-8709-9a1df461ea14",
+                "resourcePath": "sprites\/sprite_character_shadow\/sprite_character_shadow.yy",
                 "resourceType": "GMSprite"
             }
         },

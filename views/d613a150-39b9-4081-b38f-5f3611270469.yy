@@ -11,7 +11,8 @@
         "89ca7576-da1d-4d1d-a718-55320dc80f05",
         "32839d5e-a44e-4800-a6c9-57408f4a999f",
         "cd7e1463-ee1d-46cf-8a1e-f58cfc1b55ff",
-        "f1b7dc3b-5f21-49d0-a7b6-65480c865423"
+        "f1b7dc3b-5f21-49d0-a7b6-65480c865423",
+        "ae66a2d7-b720-4136-9c97-813e43dee292"
     ],
     "filterType": "GMSprite",
     "folderName": "Hair",
