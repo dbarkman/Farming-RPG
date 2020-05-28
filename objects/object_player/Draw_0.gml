@@ -11,16 +11,22 @@ if (x_frame + animation_speed / frames_per_second < animation_length) {
 	x_frame = 0;
 }
 
-if (move_x < 0) {
-	y_frame = 9;
-} else if (move_x > 0) {
-	y_frame = 11;
-} else if (move_y < 0) {
-	y_frame = 8;
-} else if (move_y > 0) {
-	y_frame = 10;
-} else {
-	x_frame = 0;
+switch(facing) {
+	case direction_facing.left: 
+		y_frame = 9;
+		break;
+	case direction_facing.right: 
+		y_frame = 11;
+		break;
+	case direction_facing.up: 
+		y_frame = 8;
+		break;
+	case direction_facing.down: 
+		y_frame = 10;
+		break;
+	case -1:
+		x_frame = 0;
+		break;
 }
 
 draw_sprite(sprite_character_shadow, 0, x, y);

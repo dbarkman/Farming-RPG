@@ -13,3 +13,5 @@ sprite_feet = sprite_boots_brown;
 sprite_legs = sprite_pants_teal;
 sprite_torso = sprite_shirt_sleeveless_brown;
 sprite_hair = sprite_hair_longbangs_brown;
+
+facing = 0;

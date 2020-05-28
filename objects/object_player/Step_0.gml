@@ -20,6 +20,28 @@ move_x = (input_right - input_left) * speed_current;
 move_y = 0;
 move_y = (input_down - input_up) * speed_current;
 
+if (move_x != 0) {
+	switch(sign(move_x)) {
+		case 1:
+			facing = direction_facing.right;
+			break;
+		case -1:
+			facing = direction_facing.left;
+			break;
+	}
+} else if (move_y != 0) {
+	switch(sign(move_y)) {
+		case 1:
+			facing = direction_facing.down;
+			break;
+		case -1:
+			facing = direction_facing.up;
+			break;
+	}
+} else {
+	facing = -1;
+}
+
 //check for horizontal collisions
 if (move_x != 0) {
 	if (place_meeting(x + move_x, y, object_wall)) {
@@ -41,3 +63,16 @@ if (move_y != 0) {
 	}
 }
 y += move_y;
+
+var transition_instance = instance_place(x, y, object_transition);
+if (transition_instance != noone && facing == transition_instance.player_facing_before) {
+	with(game) {
+		if (!do_transition) {
+			spawn_room = transition_instance.targetRoom;
+			spawn_x = transition_instance.target_x;
+			spawn_y = transition_instance.target_y;
+			spawn_player_facing = transition_instance.player_facing_after;
+			do_transition = true;
+		}
+	}
+}
